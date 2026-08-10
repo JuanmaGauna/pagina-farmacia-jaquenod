@@ -1,0 +1,37 @@
+/* Estilos Globales Personalizados - Inspirados en Jony Ive y Bienestar */
+
+/* Ajuste fino de tipografía */
+body {
+    font-family: 'Open Sans', sans-serif;
+    -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, h4, .font-heading {
+    font-family: 'Inter', sans-serif;
+}
+
+/* Efectos de transición suaves para anclas */
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 100px; /* Compensa la altura del header fijo */
+}
+
+/* Efecto de cristal glassmorphism en el header */
+header {
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+}
+
+/* Sombra premium sutil para tarjetas */
+.shadow-premium {
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.015);
+}
+
+/* Soporte de animaciones fluidas */
+.hover-scale {
+    transition: transform 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.hover-scale:hover {
+    transform: scale(1.02);
+}
