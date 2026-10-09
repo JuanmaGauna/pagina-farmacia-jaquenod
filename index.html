@@ -87,6 +87,54 @@
 
     <!-- Lucide Icons CDN -->
     <script src="https://unpkg.com/lucide@latest"></script>
+    <!-- SEO LOCAL: DATOS ESTRUCTURADOS DE FARMACIA JAQUENOD -->
+    <script type="application/ld+json">
+        {
+          "@context": "https://schema.org",
+          "@graph": [
+            {
+              "@type": "Pharmacy",
+              "@id": "https://www.farmaciajaquenod.com.ar/#jaquenod-i",
+              "name": "Farmacia Jaquenod I",
+              "url": "https://www.farmaciajaquenod.com.ar/",
+              "telephone": "+543564362170",
+              "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "Boulevard Roque Sáenz Peña 328",
+                "addressLocality": "San Francisco",
+                "addressRegion": "Córdoba",
+                "addressCountry": "AR"
+              },
+              "parentOrganization": {
+                "@id": "https://www.farmaciajaquenod.com.ar/#organizacion"
+              }
+            },
+            {
+              "@type": "Pharmacy",
+              "@id": "https://www.farmaciajaquenod.com.ar/#jaquenod-ii",
+              "name": "Farmacia Jaquenod II",
+              "url": "https://www.farmaciajaquenod.com.ar/",
+              "telephone": "+543564242243",
+              "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "Hipólito Yrigoyen 399",
+                "addressLocality": "San Francisco",
+                "addressRegion": "Córdoba",
+                "addressCountry": "AR"
+              },
+              "parentOrganization": {
+                "@id": "https://www.farmaciajaquenod.com.ar/#organizacion"
+              }
+            },
+            {
+              "@type": "Organization",
+              "@id": "https://www.farmaciajaquenod.com.ar/#organizacion",
+              "name": "Farmacia Jaquenod",
+              "url": "https://www.farmaciajaquenod.com.ar/"
+            }
+          ]
+        }
+        </script>
 </head>
 <body class="bg-slate-50/50 text-neutroDark font-sans selection:bg-mint-100 selection:text-mint-600 antialiased overflow-x-hidden">
 
