@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es" class="scroll-smooth">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,7 +11,8 @@
 
     <!-- SEO principal -->
     <title>Farmacia Jaquenod | Farmacias en San Francisco, Córdoba</title>
-    <meta name="description" content="Conocé Farmacia Jaquenod I y Jaquenod II en San Francisco, Córdoba. Medicamentos, dermocosmética, perfumería, cuidado del bebé y atención farmacéutica personalizada.">
+    <meta name="description"
+        content="Conocé Farmacia Jaquenod I y Jaquenod II en San Francisco, Córdoba. Medicamentos, dermocosmética, perfumería, cuidado del bebé y atención farmacéutica personalizada.">
     <meta name="author" content="Farmacia Jaquenod">
     <meta name="theme-color" content="#059669">
 
@@ -22,66 +24,70 @@
     <meta property="og:locale" content="es_AR">
     <meta property="og:site_name" content="Farmacia Jaquenod">
     <meta property="og:title" content="Farmacia Jaquenod | San Francisco, Córdoba">
-    <meta property="og:description" content="Dos sucursales en San Francisco, Córdoba. Medicamentos, cuidado personal y atención farmacéutica.">
+    <meta property="og:description"
+        content="Dos sucursales en San Francisco, Córdoba. Medicamentos, cuidado personal y atención farmacéutica.">
     <meta property="og:url" content="https://www.farmaciajaquenod.com.ar/">
     <meta property="og:image" content="https://www.farmaciajaquenod.com.ar/assets/img/og-image.png">
 
     <!-- Twitter / X -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Farmacia Jaquenod | San Francisco, Córdoba">
-    <meta name="twitter:description" content="Medicamentos, cuidado personal y atención farmacéutica en San Francisco, Córdoba.">
+    <meta name="twitter:description"
+        content="Medicamentos, cuidado personal y atención farmacéutica en San Francisco, Córdoba.">
     <meta name="twitter:image" content="https://www.farmaciajaquenod.com.ar/assets/img/og-image.png">
 
     <!-- Fuentes de Google -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Open+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Open+Sans:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
 
     <!-- Tailwind CSS CDN -->
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
-    tailwind.config = {
-        theme: {
-            extend: {
-                colors: {
-                    mint: {
-                        50: '#f0fdf4',
-                        100: '#dcfce7',
-                        200: '#bbf7d0',
-                        500: '#10b981',
-                        600: '#059669',
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        mint: {
+                            50: '#f0fdf4',
+                            100: '#dcfce7',
+                            200: '#bbf7d0',
+                            500: '#10b981',
+                            600: '#059669',
+                        },
+                        celeste: {
+                            50: '#f0f9ff',
+                            100: '#e0f2fe',
+                            200: '#bae6fd',
+                            500: '#0ea5e9',
+                            600: '#0284c7',
+                        },
+                        azulClaro: {
+                            50: '#f8fafc',
+                            100: '#f1f5f9',
+                            900: '#0f172a',
+                        },
+                        acentoVibrante: {
+                            500: '#2563eb',
+                            /* Azul enérgico */
+                            600: '#1d4ed8',
+                        },
+                        acentoVerde: {
+                            500: '#10b981',
+                            /* Verde vibrante */
+                            600: '#059669',
+                        },
+                        neutroDark: '#1e293b',
                     },
-                    celeste: {
-                        50: '#f0f9ff',
-                        100: '#e0f2fe',
-                        200: '#bae6fd',
-                        500: '#0ea5e9',
-                        600: '#0284c7',
-                    },
-                    azulClaro: {
-                        50: '#f8fafc',
-                        100: '#f1f5f9',
-                        900: '#0f172a',
-                    },
-                    acentoVibrante: {
-                        500: '#2563eb',
-                        /* Azul enérgico */
-                        600: '#1d4ed8',
-                    },
-                    acentoVerde: {
-                        500: '#10b981',
-                        /* Verde vibrante */
-                        600: '#059669',
-                    },
-                    neutroDark: '#1e293b',
-                },
-                fontFamily: {
-                    sans: ['"Open Sans"', 'sans-serif'],
-                    heading: ['Inter', 'sans-serif'],
+                    fontFamily: {
+                        sans: ['"Open Sans"', 'sans-serif'],
+                        heading: ['Inter', 'sans-serif'],
+                    }
                 }
             }
         }
-    }
     </script>
     <link rel="stylesheet" href="assets/css/styles.css">
 
@@ -90,69 +96,134 @@
     <!-- SEO LOCAL: DATOS ESTRUCTURADOS DE FARMACIA JAQUENOD -->
     <script type="application/ld+json">
         {
-          "@context": "https://schema.org",
-          "@graph": [
-            {
-              "@type": "Pharmacy",
-              "@id": "https://www.farmaciajaquenod.com.ar/#jaquenod-i",
-              "name": "Farmacia Jaquenod I",
-              "url": "https://www.farmaciajaquenod.com.ar/",
-              "telephone": "+543564362170",
-              "address": {
-                "@type": "PostalAddress",
-                "streetAddress": "Boulevard Roque Sáenz Peña 328",
-                "addressLocality": "San Francisco",
-                "addressRegion": "Córdoba",
-                "addressCountry": "AR"
-              },
-              "parentOrganization": {
-                "@id": "https://www.farmaciajaquenod.com.ar/#organizacion"
-              }
-            },
-            {
-              "@type": "Pharmacy",
-              "@id": "https://www.farmaciajaquenod.com.ar/#jaquenod-ii",
-              "name": "Farmacia Jaquenod II",
-              "url": "https://www.farmaciajaquenod.com.ar/",
-              "telephone": "+543564242243",
-              "address": {
-                "@type": "PostalAddress",
-                "streetAddress": "Hipólito Yrigoyen 399",
-                "addressLocality": "San Francisco",
-                "addressRegion": "Córdoba",
-                "addressCountry": "AR"
-              },
-              "parentOrganization": {
-                "@id": "https://www.farmaciajaquenod.com.ar/#organizacion"
-              }
-            },
-            {
-              "@type": "Organization",
-              "@id": "https://www.farmaciajaquenod.com.ar/#organizacion",
-              "name": "Farmacia Jaquenod",
-              "url": "https://www.farmaciajaquenod.com.ar/"
-            }
-          ]
+            "@context": "https://schema.org",
+            "@graph": [{
+                    "@type": "Pharmacy",
+                    "@id": "https://www.farmaciajaquenod.com.ar/#jaquenod-i",
+                    "name": "Farmacia Jaquenod I",
+                    "url": "https://www.farmaciajaquenod.com.ar/",
+                    "telephone": "+543564362170",
+                    "openingHoursSpecification": [{
+                            "@type": "OpeningHoursSpecification",
+                            "dayOfWeek": [
+                                "Monday",
+                                "Tuesday",
+                                "Wednesday",
+                                "Thursday",
+                                "Friday"
+                            ],
+                            "opens": "08:00",
+                            "closes": "12:30"
+                        },
+                        {
+                            "@type": "OpeningHoursSpecification",
+                            "dayOfWeek": [
+                                "Monday",
+                                "Tuesday",
+                                "Wednesday",
+                                "Thursday",
+                                "Friday"
+                            ],
+                            "opens": "16:00",
+                            "closes": "20:30"
+                        },
+                        {
+                            "@type": "OpeningHoursSpecification",
+                            "dayOfWeek": "Saturday",
+                            "opens": "08:30",
+                            "closes": "12:30"
+                        }
+                    ],
+                    "openingHoursSpecification",
+                    "address": {
+                        "@type": "PostalAddress",
+                        "streetAddress": "Boulevard Roque Sáenz Peña 328",
+                        "addressLocality": "San Francisco",
+                        "addressRegion": "Córdoba",
+                        "addressCountry": "AR"
+                    },
+                    "parentOrganization": {
+                        "@id": "https://www.farmaciajaquenod.com.ar/#organizacion"
+                    }
+                },
+                {
+                    "@type": "Pharmacy",
+                    "@id": "https://www.farmaciajaquenod.com.ar/#jaquenod-ii",
+                    "name": "Farmacia Jaquenod II",
+                    "url": "https://www.farmaciajaquenod.com.ar/",
+                    "telephone": "+543564242243",
+                    "openingHoursSpecification": [{
+                            "@type": "OpeningHoursSpecification",
+                            "dayOfWeek": [
+                                "Monday",
+                                "Tuesday",
+                                "Wednesday",
+                                "Thursday",
+                                "Friday"
+                            ],
+                            "opens": "08:00",
+                            "closes": "12:30"
+                        },
+                        {
+                            "@type": "OpeningHoursSpecification",
+                            "dayOfWeek": [
+                                "Monday",
+                                "Tuesday",
+                                "Wednesday",
+                                "Thursday",
+                                "Friday"
+                            ],
+                            "opens": "16:00",
+                            "closes": "20:30"
+                        },
+                        {
+                            "@type": "OpeningHoursSpecification",
+                            "dayOfWeek": "Saturday",
+                            "opens": "08:30",
+                            "closes": "12:30"
+                        }
+                    ],
+                    "openingHoursSpecification",
+                    "address": {
+                        "@type": "PostalAddress",
+                        "streetAddress": "Hipólito Yrigoyen 399",
+                        "addressLocality": "San Francisco",
+                        "addressRegion": "Córdoba",
+                        "addressCountry": "AR"
+                    },
+                    "parentOrganization": {
+                        "@id": "https://www.farmaciajaquenod.com.ar/#organizacion"
+                    }
+                },
+                {
+                    "@type": "Organization",
+                    "@id": "https://www.farmaciajaquenod.com.ar/#organizacion",
+                    "name": "Farmacia Jaquenod",
+                    "url": "https://www.farmaciajaquenod.com.ar/"
+                }
+            ]
         }
-        </script>
+    </script>
 </head>
-<body class="bg-slate-50/50 text-neutroDark font-sans selection:bg-mint-100 selection:text-mint-600 antialiased overflow-x-hidden">
+
+<body
+    class="bg-slate-50/50 text-neutroDark font-sans selection:bg-mint-100 selection:text-mint-600 antialiased overflow-x-hidden">
 
     <!-- HEADER / NAVEGACIÓN -->
-    <header class="sticky top-0 z-50 bg-white/90 backdrop-blur-md border-b border-slate-100/80 transition-all duration-300">
+    <header
+        class="sticky top-0 z-50 bg-white/90 backdrop-blur-md border-b border-slate-100/80 transition-all duration-300">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="flex items-center justify-between h-20">
-    
+
                 <!-- Logotipo -->
                 <a href="#inicio" class="flex items-center space-x-3 group focus:outline-none shrink-0">
                     <div class="flex items-center">
-                        <img src="assets/img/logofarmacia.png"
-                             alt="Farmacia Jaquenod"
-                             class="h-12 w-auto object-contain rounded-lg"
-                             loading="eager">
+                        <img src="assets/img/logofarmacia.png" alt="Farmacia Jaquenod"
+                            class="h-12 w-auto object-contain rounded-lg" loading="eager">
                     </div>
                     <div class="flex flex-col justify-center">
-                        <span class="font-heading font-extrabold text-lg sm:text-xl tracking-tight text-azulClaro-900 leading-tight">
+                        <span
+                            class="font-heading font-extrabold text-lg sm:text-xl tracking-tight text-azulClaro-900 leading-tight">
                             Farmacia Jaquenod
                         </span>
                         <span class="text-[10px] text-mint-600 font-bold tracking-widest uppercase">
@@ -160,44 +231,60 @@
                         </span>
                     </div>
                 </a>
-    
+
                 <!-- Navegación Escritorio -->
                 <nav class="hidden lg:flex items-center space-x-6 xl:space-x-8">
-                    <a href="#inicio" class="text-slate-600 hover:text-acentoVibrante-500 font-semibold text-sm transition-colors">Inicio</a>
-                    <a href="#sucursales" class="text-slate-600 hover:text-acentoVibrante-500 font-semibold text-sm transition-colors">Sucursales</a>
-                    <a href="#nosotros" class="text-slate-600 hover:text-acentoVibrante-500 font-semibold text-sm transition-colors">Nosotros</a>
-                    <a href="#servicios" class="text-slate-600 hover:text-acentoVibrante-500 font-semibold text-sm transition-colors">Servicios</a>
-                    <a href="#horarios" class="text-slate-600 hover:text-acentoVibrante-500 font-semibold text-sm transition-colors">Horarios</a>
-                    <a href="#contacto" class="text-slate-600 hover:text-acentoVibrante-500 font-semibold text-sm transition-colors">Contacto</a>
+                    <a href="#inicio"
+                        class="text-slate-600 hover:text-acentoVibrante-500 font-semibold text-sm transition-colors">Inicio</a>
+                    <a href="#sucursales"
+                        class="text-slate-600 hover:text-acentoVibrante-500 font-semibold text-sm transition-colors">Sucursales</a>
+                    <a href="#nosotros"
+                        class="text-slate-600 hover:text-acentoVibrante-500 font-semibold text-sm transition-colors">Nosotros</a>
+                    <a href="#servicios"
+                        class="text-slate-600 hover:text-acentoVibrante-500 font-semibold text-sm transition-colors">Servicios</a>
+                    <a href="#horarios"
+                        class="text-slate-600 hover:text-acentoVibrante-500 font-semibold text-sm transition-colors">Horarios</a>
+                    <a href="#contacto"
+                        class="text-slate-600 hover:text-acentoVibrante-500 font-semibold text-sm transition-colors">Contacto</a>
                 </nav>
-    
+
                 <!-- Botón CTA Escritorio -->
                 <div class="hidden md:flex items-center">
-                    <a href="#sucursales" class="inline-flex items-center justify-center px-4 py-2 rounded-full border border-mint-500 text-mint-600 hover:bg-mint-500 hover:text-white font-bold text-sm transition-all duration-300 shadow-sm">
+                    <a href="#sucursales"
+                        class="inline-flex items-center justify-center px-4 py-2 rounded-full border border-mint-500 text-mint-600 hover:bg-mint-500 hover:text-white font-bold text-sm transition-all duration-300 shadow-sm">
                         <i data-lucide="map-pin" class="w-4 h-4 mr-1.5"></i>
                         Ver Sucursales
                     </a>
                 </div>
-    
+
                 <!-- Botón Menú Móvil -->
-                <button id="mobile-menu-btn" class="lg:hidden p-2 rounded-xl text-slate-600 hover:bg-slate-100 transition-colors" aria-label="Abrir menú">
+                <button id="mobile-menu-btn"
+                    class="lg:hidden p-2 rounded-xl text-slate-600 hover:bg-slate-100 transition-colors"
+                    aria-label="Abrir menú">
                     <i data-lucide="menu" id="menu-icon-hamburger" class="w-6 h-6"></i>
                     <i data-lucide="x" id="menu-icon-close" class="w-6 h-6 hidden"></i>
                 </button>
             </div>
         </div>
-    
+
         <!-- Menú Móvil Desplegable -->
         <div id="mobile-menu" class="hidden lg:hidden bg-white border-b border-slate-100 transition-all duration-300">
             <div class="px-4 pt-2 pb-6 space-y-3 shadow-inner">
-                <a href="#inicio" class="mobile-nav-link block px-3 py-2.5 rounded-lg text-slate-700 hover:bg-mint-50 hover:text-mint-600 font-semibold">Inicio</a>
-                <a href="#sucursales" class="mobile-nav-link block px-3 py-2.5 rounded-lg text-slate-700 hover:bg-mint-50 hover:text-mint-600 font-semibold">Sucursales</a>
-                <a href="#nosotros" class="mobile-nav-link block px-3 py-2.5 rounded-lg text-slate-700 hover:bg-mint-50 hover:text-mint-600 font-semibold">Nosotros</a>
-                <a href="#servicios" class="mobile-nav-link block px-3 py-2.5 rounded-lg text-slate-700 hover:bg-mint-50 hover:text-mint-600 font-semibold">Servicios</a>
-                <a href="#horarios" class="mobile-nav-link block px-3 py-2.5 rounded-lg text-slate-700 hover:bg-mint-50 hover:text-mint-600 font-semibold">Horarios</a>
-                <a href="#contacto" class="mobile-nav-link block px-3 py-2.5 rounded-lg text-slate-700 hover:bg-mint-50 hover:text-mint-600 font-semibold">Contacto</a>
+                <a href="#inicio"
+                    class="mobile-nav-link block px-3 py-2.5 rounded-lg text-slate-700 hover:bg-mint-50 hover:text-mint-600 font-semibold">Inicio</a>
+                <a href="#sucursales"
+                    class="mobile-nav-link block px-3 py-2.5 rounded-lg text-slate-700 hover:bg-mint-50 hover:text-mint-600 font-semibold">Sucursales</a>
+                <a href="#nosotros"
+                    class="mobile-nav-link block px-3 py-2.5 rounded-lg text-slate-700 hover:bg-mint-50 hover:text-mint-600 font-semibold">Nosotros</a>
+                <a href="#servicios"
+                    class="mobile-nav-link block px-3 py-2.5 rounded-lg text-slate-700 hover:bg-mint-50 hover:text-mint-600 font-semibold">Servicios</a>
+                <a href="#horarios"
+                    class="mobile-nav-link block px-3 py-2.5 rounded-lg text-slate-700 hover:bg-mint-50 hover:text-mint-600 font-semibold">Horarios</a>
+                <a href="#contacto"
+                    class="mobile-nav-link block px-3 py-2.5 rounded-lg text-slate-700 hover:bg-mint-50 hover:text-mint-600 font-semibold">Contacto</a>
                 <div class="pt-2">
-                    <a href="#sucursales" class="mobile-nav-link flex items-center justify-center w-full px-4 py-3 rounded-xl bg-acentoVibrante-500 text-white font-bold shadow-sm hover:bg-acentoVibrante-600">
+                    <a href="#sucursales"
+                        class="mobile-nav-link flex items-center justify-center w-full px-4 py-3 rounded-xl bg-acentoVibrante-500 text-white font-bold shadow-sm hover:bg-acentoVibrante-600">
                         <i data-lucide="map-pin" class="w-5 h-5 mr-2"></i>
                         Ver Sucursales
                     </a>
@@ -207,7 +294,8 @@
     </header>
 
     <!-- SECCIÓN HERO -->
-    <section id="inicio" class="relative pt-3 pb-6 md:py-8 overflow-hidden bg-gradient-to-b from-white via-celeste-50/20 to-mint-50/20">
+    <section id="inicio"
+        class="relative pt-3 pb-6 md:py-8 overflow-hidden bg-gradient-to-b from-white via-celeste-50/20 to-mint-50/20">
         <!-- Fondos visuales elegantes -->
         <div class="absolute inset-0 z-0 pointer-events-none opacity-40">
             <div class="absolute top-1/4 right-0 w-96 h-96 bg-mint-200/50 rounded-full blur-3xl -mr-20"></div>
@@ -229,36 +317,43 @@
                         </div>
                     </div>
                     -->
-                    <div class="inline-flex items-center space-x-2 px-4 py-1.5 bg-mint-100 text-mint-600 rounded-full text-xs sm:text-sm font-bold tracking-wide uppercase">
+                    <div
+                        class="inline-flex items-center space-x-2 px-4 py-1.5 bg-mint-100 text-mint-600 rounded-full text-xs sm:text-sm font-bold tracking-wide uppercase">
                         <i data-lucide="heart" class="w-4 h-4 fill-current"></i>
                         <span>Cuidamos de vos en San Francisco.</span>
                     </div>
 
-                    <h1 class="font-heading text-4xl sm:text-5xl lg:text-6xl font-extrabold text-azulClaro-900 tracking-tight leading-none">
+                    <h1
+                        class="font-heading text-4xl sm:text-5xl lg:text-6xl font-extrabold text-azulClaro-900 tracking-tight leading-none">
 
-                                                Farmacia Jaquenod,
+                        Farmacia Jaquenod,
                         <br>
-                        <span class="text-transparent bg-clip-text bg-gradient-to-r from-mint-600 to-celeste-600">cerca tuyo para cuidar tu salud.</span>
+                        <span class="text-transparent bg-clip-text bg-gradient-to-r from-mint-600 to-celeste-600">cerca
+                            tuyo para cuidar tu salud.</span>
                     </h1>
 
                     <p class="text-base sm:text-lg text-slate-600 leading-relaxed max-w-2xl mx-auto lg:mx-0">
-                        Atención personalizada y asesoramiento profesional en nuestras dos sucursales de San Francisco, Córdoba.
+                        Atención personalizada y asesoramiento profesional en nuestras dos sucursales de San Francisco,
+                        Córdoba.
                         Estamos cerca para acompañarte en el cuidado de tu salud.
                     </p>
 
                     <!-- CTAs Telefónicos Directos y Geolocalización -->
                     <div class="space-y-4 max-w-lg mx-auto lg:mx-0">
                         <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
-                            <a href="tel:03564362170" class="flex items-center justify-center px-6 py-4 rounded-2xl bg-acentoVibrante-500 hover:bg-acentoVibrante-600 text-white font-extrabold shadow-lg shadow-acentoVibrante-500/20 active:scale-95 transition-all group">
+                            <a href="tel:03564362170"
+                                class="flex items-center justify-center px-6 py-4 rounded-2xl bg-acentoVibrante-500 hover:bg-acentoVibrante-600 text-white font-extrabold shadow-lg shadow-acentoVibrante-500/20 active:scale-95 transition-all group">
                                 <i data-lucide="phone-call" class="w-5 h-5 mr-3 animate-pulse"></i>
                                 <span>Llamar a Jaquenod I</span>
                             </a>
-                            <a href="tel:03564242243" class="flex items-center justify-center px-6 py-4 rounded-2xl bg-acentoVerde-500 hover:bg-acentoVerde-600 text-white font-extrabold shadow-lg shadow-acentoVerde-500/20 active:scale-95 transition-all group">
+                            <a href="tel:03564242243"
+                                class="flex items-center justify-center px-6 py-4 rounded-2xl bg-acentoVerde-500 hover:bg-acentoVerde-600 text-white font-extrabold shadow-lg shadow-acentoVerde-500/20 active:scale-95 transition-all group">
                                 <i data-lucide="phone-call" class="w-5 h-5 mr-3 animate-pulse"></i>
                                 <span>Llamar a Jaquenod II</span>
                             </a>
                         </div>
-                        <a href="#sucursales" class="inline-flex items-center justify-center w-full px-5 py-3.5 rounded-2xl bg-white border border-slate-200 text-slate-700 font-semibold hover:border-mint-500 hover:text-mint-600 hover:bg-mint-50/30 transition-all shadow-sm">
+                        <a href="#sucursales"
+                            class="inline-flex items-center justify-center w-full px-5 py-3.5 rounded-2xl bg-white border border-slate-200 text-slate-700 font-semibold hover:border-mint-500 hover:text-mint-600 hover:bg-mint-50/30 transition-all shadow-sm">
                             <i data-lucide="map" class="w-5 h-5 mr-2 text-mint-500"></i>
                             <span>Ver sucursales y ubicaciones</span>
                         </a>
@@ -268,12 +363,16 @@
                 <!-- Columna Derecha: Tarjeta de Atención de Alta Calidad -->
                 <div class="lg:col-span-5 relative flex justify-center">
                     <div class="relative w-full max-w-md">
-                        <div class="absolute inset-0 bg-gradient-to-r from-mint-500 to-celeste-500 rounded-3xl opacity-10 blur-xl scale-105"></div>
-                        <div class="bg-white p-8 rounded-3xl shadow-xl border border-slate-100/80 relative z-10 space-y-6">
+                        <div
+                            class="absolute inset-0 bg-gradient-to-r from-mint-500 to-celeste-500 rounded-3xl opacity-10 blur-xl scale-105">
+                        </div>
+                        <div
+                            class="bg-white p-8 rounded-3xl shadow-xl border border-slate-100/80 relative z-10 space-y-6">
 
                             <div class="flex items-center justify-between pb-4 border-b border-slate-100">
                                 <div class="flex items-center space-x-3">
-                                    <div class="w-12 h-12 rounded-xl bg-mint-50 flex items-center justify-center text-mint-600">
+                                    <div
+                                        class="w-12 h-12 rounded-xl bg-mint-50 flex items-center justify-center text-mint-600">
                                         <i data-lucide="shield-check" class="w-6 h-6"></i>
                                     </div>
                                     <div>
@@ -281,45 +380,56 @@
                                         <p class="text-xs text-slate-400">Atención 100% personalizada</p>
                                     </div>
                                 </div>
-                                <span class="px-3 py-1 bg-emerald-50 text-emerald-600 text-xs font-bold rounded-full">Siempre cerca</span>
+                                <span
+                                    class="px-3 py-1 bg-emerald-50 text-emerald-600 text-xs font-bold rounded-full">Siempre
+                                    cerca</span>
                             </div>
 
                             <div class="space-y-4">
                                 <div class="flex items-start space-x-3 text-sm">
-                                    <div class="w-5 h-5 rounded-full bg-mint-100 flex items-center justify-center text-mint-600 shrink-0 mt-0.5">
+                                    <div
+                                        class="w-5 h-5 rounded-full bg-mint-100 flex items-center justify-center text-mint-600 shrink-0 mt-0.5">
                                         <i data-lucide="check" class="w-3.5 h-3.5 stroke-[3]"></i>
                                     </div>
-                                    <p class="text-slate-600 font-medium">Asesoramiento profesional sobre recetas y dosificación.</p>
+                                    <p class="text-slate-600 font-medium">Asesoramiento profesional sobre recetas y
+                                        dosificación.</p>
                                 </div>
                                 <div class="flex items-start space-x-3 text-sm">
-                                    <div class="w-5 h-5 rounded-full bg-mint-100 flex items-center justify-center text-mint-600 shrink-0 mt-0.5">
+                                    <div
+                                        class="w-5 h-5 rounded-full bg-mint-100 flex items-center justify-center text-mint-600 shrink-0 mt-0.5">
                                         <i data-lucide="check" class="w-3.5 h-3.5 stroke-[3]"></i>
                                     </div>
-                                    <p class="text-slate-600 font-medium">Trabajamos con una amplia variedad de obras sociales.</p>
+                                    <p class="text-slate-600 font-medium">Trabajamos con una amplia variedad de obras
+                                        sociales.</p>
                                 </div>
                                 <div class="flex items-start space-x-3 text-sm">
-                                    <div class="w-5 h-5 rounded-full bg-mint-100 flex items-center justify-center text-mint-600 shrink-0 mt-0.5">
+                                    <div
+                                        class="w-5 h-5 rounded-full bg-mint-100 flex items-center justify-center text-mint-600 shrink-0 mt-0.5">
                                         <i data-lucide="check" class="w-3.5 h-3.5 stroke-[3]"></i>
                                     </div>
-                                    <p class="text-slate-600 font-medium">Amplio stock en medicamentos y dermocosmética.</p>
+                                    <p class="text-slate-600 font-medium">Amplio stock en medicamentos y dermocosmética.
+                                    </p>
                                 </div>
                             </div>
-            <!-- Imagen interior de la farmacia -->
-            <div class="rounded-2xl overflow-hidden border border-slate-100 shadow-sm">
-                <img src="assets/img/jaquenodinterior.jpg"
-                   alt="Interior de Farmacia Jaquenod en San Francisco, Córdoba"
-                  class="w-full h-48 object-cover"
-                   loading="lazy">
-            </div>
-                            <div class="p-4 bg-celeste-50/60 rounded-2xl border border-celeste-100 flex items-center justify-between">
+                            <!-- Imagen interior de la farmacia -->
+                            <div class="rounded-2xl overflow-hidden border border-slate-100 shadow-sm">
+                                <img src="assets/img/jaquenodinterior.jpg"
+                                    alt="Interior de Farmacia Jaquenod en San Francisco, Córdoba"
+                                    class="w-full h-48 object-cover" loading="lazy">
+                            </div>
+                            <div
+                                class="p-4 bg-celeste-50/60 rounded-2xl border border-celeste-100 flex items-center justify-between">
                                 <div class="flex items-center space-x-2">
                                     <span class="flex h-3 w-3 relative">
-                                        <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-celeste-400 opacity-75"></span>
+                                        <span
+                                            class="animate-ping absolute inline-flex h-full w-full rounded-full bg-celeste-400 opacity-75"></span>
                                         <span class="relative inline-flex rounded-full h-3 w-3 bg-celeste-500"></span>
                                     </span>
                                     <span class="text-xs font-semibold text-slate-600">¿Tenés alguna consulta?</span>
                                 </div>
-                                <a href="#contacto" class="text-xs font-bold text-acentoVibrante-500 hover:text-acentoVibrante-600 hover:underline">Escribinos ahora</a>
+                                <a href="#contacto"
+                                    class="text-xs font-bold text-acentoVibrante-500 hover:text-acentoVibrante-600 hover:underline">Escribinos
+                                    ahora</a>
                             </div>
                         </div>
                     </div>
@@ -333,26 +443,32 @@
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center max-w-3xl mx-auto mb-16 space-y-4">
                 <h2 class="font-heading text-3xl sm:text-4xl font-extrabold text-azulClaro-900">
-                                    Nuestras dos sucursales en San Francisco
-                                </h2>
+                    Nuestras dos sucursales en San Francisco
+                </h2>
                 <div class="w-16 h-1.5 bg-gradient-to-r from-mint-500 to-celeste-500 mx-auto rounded-full"></div>
                 <p class="text-slate-600 text-lg">
-                                    Ubicadas estratégicamente para estar siempre cerca de tu hogar. Encontrá direcciones exactas, teléfonos de contacto rápido y acceso directo a mapas.
-                                </p>
+                    Ubicadas estratégicamente para estar siempre cerca de tu hogar. Encontrá direcciones exactas,
+                    teléfonos de contacto rápido y acceso directo a mapas.
+                </p>
             </div>
 
             <div class="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-5xl mx-auto">
 
                 <!-- Tarjeta Jaquenod I -->
-                <div class="bg-gradient-to-b from-slate-50 to-white rounded-3xl p-8 border border-slate-100 hover:border-mint-200/60 hover:shadow-2xl hover:shadow-mint-500/5 hover:-translate-y-1 transition-all duration-300 flex flex-col justify-between">
+                <div
+                    class="bg-gradient-to-b from-slate-50 to-white rounded-3xl p-8 border border-slate-100 hover:border-mint-200/60 hover:shadow-2xl hover:shadow-mint-500/5 hover:-translate-y-1 transition-all duration-300 flex flex-col justify-between">
                     <div>
                         <div class="flex items-center justify-between mb-6">
-                            <span class="px-4 py-1.5 bg-mint-50 text-mint-600 font-bold text-xs rounded-full uppercase tracking-wider">Sucursal I (Casa Central)</span>
-                            <div class="w-10 h-10 rounded-full bg-mint-100 flex items-center justify-center text-mint-500">
+                            <span
+                                class="px-4 py-1.5 bg-mint-50 text-mint-600 font-bold text-xs rounded-full uppercase tracking-wider">Sucursal
+                                I (Casa Central)</span>
+                            <div
+                                class="w-10 h-10 rounded-full bg-mint-100 flex items-center justify-center text-mint-500">
                                 <i data-lucide="home" class="w-5 h-5"></i>
                             </div>
                         </div>
-                        <h3 class="font-heading text-2xl font-extrabold text-azulClaro-900 mb-4">Farmacia Jaquenod I</h3>
+                        <h3 class="font-heading text-2xl font-extrabold text-azulClaro-900 mb-4">Farmacia Jaquenod I
+                        </h3>
 
                         <div class="space-y-4 mb-8">
                             <div class="flex items-start">
@@ -373,29 +489,37 @@
                     </div>
 
                     <div class="space-y-3 pt-6 border-t border-slate-100">
-                        <a href="tel:03564362170" class="flex items-center justify-center w-full px-5 py-3.5 rounded-2xl bg-acentoVibrante-500 hover:bg-acentoVibrante-600 text-white font-bold transition-all shadow-md shadow-acentoVibrante-500/10">
+                        <a href="tel:03564362170"
+                            class="flex items-center justify-center w-full px-5 py-3.5 rounded-2xl bg-acentoVibrante-500 hover:bg-acentoVibrante-600 text-white font-bold transition-all shadow-md shadow-acentoVibrante-500/10">
                             <i data-lucide="phone" class="w-5 h-5 mr-2"></i>
-                             Llamar a Jaquenod I
-                                                    
+                            Llamar a Jaquenod I
+
                         </a>
-                        <a href="https://www.google.com/maps/search/?api=1&query=Farmacia+Jaquenod+Blvd+Roque+Saenz+Pena+328+San+Francisco+Cordoba" target="_blank" rel="noopener noreferrer" class="flex items-center justify-center w-full px-5 py-3.5 rounded-2xl bg-white border border-slate-200 text-slate-700 font-semibold hover:border-mint-500 hover:text-mint-600 transition-all">
+                        <a href="https://www.google.com/maps/search/?api=1&query=Farmacia+Jaquenod+Blvd+Roque+Saenz+Pena+328+San+Francisco+Cordoba"
+                            target="_blank" rel="noopener noreferrer"
+                            class="flex items-center justify-center w-full px-5 py-3.5 rounded-2xl bg-white border border-slate-200 text-slate-700 font-semibold hover:border-mint-500 hover:text-mint-600 transition-all">
                             <i data-lucide="map" class="w-5 h-5 mr-2 text-mint-500"></i>
-                             Abrir en Google Maps
-                                                    
+                            Abrir en Google Maps
+
                         </a>
                     </div>
                 </div>
 
                 <!-- Tarjeta Jaquenod II -->
-                <div class="bg-gradient-to-b from-slate-50 to-white rounded-3xl p-8 border border-slate-100 hover:border-celeste-200/60 hover:shadow-2xl hover:shadow-celeste-500/5 hover:-translate-y-1 transition-all duration-300 flex flex-col justify-between">
+                <div
+                    class="bg-gradient-to-b from-slate-50 to-white rounded-3xl p-8 border border-slate-100 hover:border-celeste-200/60 hover:shadow-2xl hover:shadow-celeste-500/5 hover:-translate-y-1 transition-all duration-300 flex flex-col justify-between">
                     <div>
                         <div class="flex items-center justify-between mb-6">
-                            <span class="px-4 py-1.5 bg-celeste-50 text-celeste-600 font-bold text-xs rounded-full uppercase tracking-wider">Sucursal II (Norte)</span>
-                            <div class="w-10 h-10 rounded-full bg-celeste-100 flex items-center justify-center text-celeste-500">
+                            <span
+                                class="px-4 py-1.5 bg-celeste-50 text-celeste-600 font-bold text-xs rounded-full uppercase tracking-wider">Sucursal
+                                II (Norte)</span>
+                            <div
+                                class="w-10 h-10 rounded-full bg-celeste-100 flex items-center justify-center text-celeste-500">
                                 <i data-lucide="navigation" class="w-5 h-5"></i>
                             </div>
                         </div>
-                        <h3 class="font-heading text-2xl font-extrabold text-azulClaro-900 mb-4">Farmacia Jaquenod II</h3>
+                        <h3 class="font-heading text-2xl font-extrabold text-azulClaro-900 mb-4">Farmacia Jaquenod II
+                        </h3>
 
                         <div class="space-y-4 mb-8">
                             <div class="flex items-start">
@@ -416,15 +540,18 @@
                     </div>
 
                     <div class="space-y-3 pt-6 border-t border-slate-100">
-                        <a href="tel:03564242243" class="flex items-center justify-center w-full px-5 py-3.5 rounded-2xl bg-acentoVerde-500 hover:bg-acentoVerde-600 text-white font-bold transition-all shadow-md shadow-acentoVerde-500/10">
+                        <a href="tel:03564242243"
+                            class="flex items-center justify-center w-full px-5 py-3.5 rounded-2xl bg-acentoVerde-500 hover:bg-acentoVerde-600 text-white font-bold transition-all shadow-md shadow-acentoVerde-500/10">
                             <i data-lucide="phone" class="w-5 h-5 mr-2"></i>
-                             Llamar a Jaquenod II
-                                                    
+                            Llamar a Jaquenod II
+
                         </a>
-                        <a href="https://www.google.com/maps/search/?api=1&query=Farmacia+Jaquenod+Hipolito+Yrigoyen+399+San+Francisco+Cordoba" target="_blank" rel="noopener noreferrer" class="flex items-center justify-center w-full px-5 py-3.5 rounded-2xl bg-white border border-slate-200 text-slate-700 font-semibold hover:border-celeste-500 hover:text-celeste-600 transition-all">
+                        <a href="https://www.google.com/maps/search/?api=1&query=Farmacia+Jaquenod+Hipolito+Yrigoyen+399+San+Francisco+Cordoba"
+                            target="_blank" rel="noopener noreferrer"
+                            class="flex items-center justify-center w-full px-5 py-3.5 rounded-2xl bg-white border border-slate-200 text-slate-700 font-semibold hover:border-celeste-500 hover:text-celeste-600 transition-all">
                             <i data-lucide="map" class="w-5 h-5 mr-2 text-celeste-500"></i>
-                             Abrir en Google Maps
-                                                    
+                            Abrir en Google Maps
+
                         </a>
                     </div>
                 </div>
@@ -435,125 +562,136 @@
 
     <!-- SECCIÓN HORARIOS DE ATENCIÓN -->
 
-<section id="horarios" class="py-16 bg-slate-50 border-y border-slate-100">
-    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div class="bg-white rounded-3xl p-8 border border-slate-100 shadow-xl relative overflow-hidden">
-            <div class="absolute top-0 right-0 w-32 h-32 bg-mint-500/5 rounded-full -mr-10 -mt-10"></div>
+    <section id="horarios" class="py-16 bg-slate-50 border-y border-slate-100">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="bg-white rounded-3xl p-8 border border-slate-100 shadow-xl relative overflow-hidden">
+                <div class="absolute top-0 right-0 w-32 h-32 bg-mint-500/5 rounded-full -mr-10 -mt-10"></div>
 
-```
-        <div class="flex flex-col md:flex-row items-center justify-between gap-8 relative z-10">
-            <div class="space-y-4 max-w-md">
-                <div class="inline-flex items-center space-x-2 px-3 py-1 bg-celeste-50 text-celeste-600 rounded-full text-xs font-bold uppercase tracking-wider">
-                    <i data-lucide="clock" class="w-3.5 h-3.5"></i>
-                    <span>Atención Comercial</span>
+                ```
+                <div class="flex flex-col md:flex-row items-center justify-between gap-8 relative z-10">
+                    <div class="space-y-4 max-w-md">
+                        <div
+                            class="inline-flex items-center space-x-2 px-3 py-1 bg-celeste-50 text-celeste-600 rounded-full text-xs font-bold uppercase tracking-wider">
+                            <i data-lucide="clock" class="w-3.5 h-3.5"></i>
+                            <span>Atención Comercial</span>
+                        </div>
+
+                        <h3 class="font-heading text-2xl font-extrabold text-azulClaro-900">
+                            Horarios de Atención
+                        </h3>
+
+                        <p class="text-sm text-slate-500 leading-relaxed">
+                            Te esperamos en cualquiera de nuestras dos sucursales.
+                            Consultá por WhatsApp o teléfono ante cualquier duda
+                            sobre feriados y farmacias de turno.
+                        </p>
+                    </div>
+
+                    <div
+                        class="w-full md:w-auto bg-slate-50 p-6 rounded-2xl border border-slate-100 space-y-5 shrink-0">
+
+                        <div class="space-y-2">
+                            <h4 class="text-sm font-extrabold text-azulClaro-900">
+                                Farmacia Jaquenod I
+                            </h4>
+                            <p class="text-sm font-semibold text-slate-700">
+                                Lunes a viernes
+                            </p>
+                            <p class="text-sm text-slate-600">
+                                08:00hs a 12:30hs & 16:00hs a 20:30hs
+                            </p>
+                            <p class="text-sm font-semibold text-slate-700">
+                                Sábados
+                            </p>
+                            <p class="text-sm text-slate-600">
+                                08:30hs a 12:30hs
+                            </p>
+                        </div>
+
+                        <div class="h-px bg-slate-200"></div>
+
+                        <div class="space-y-2">
+                            <h4 class="text-sm font-extrabold text-azulClaro-900">
+                                Farmacia Jaquenod II
+                            </h4>
+                            <p class="text-sm font-semibold text-slate-700">
+                                Lunes a viernes
+                            </p>
+                            <p class="text-sm text-slate-600">
+                                08:00hs a 12:30hs & 16:00hs a 20:30hs
+                            </p>
+                            <p class="text-sm font-semibold text-slate-700">
+                                Sábados
+                            </p>
+                            <p class="text-sm text-slate-600">
+                                08:30hs a 12:30hs
+                            </p>
+                        </div>
+
+                        <p class="text-[10px] text-slate-400 italic text-center pt-2">
+                            * Los horarios pueden variar por turnos obligatorios y feriados.
+                        </p>
+                    </div>
                 </div>
-
-                <h3 class="font-heading text-2xl font-extrabold text-azulClaro-900">
-                    Horarios de Atención
-                </h3>
-
-                <p class="text-sm text-slate-500 leading-relaxed">
-                    Te esperamos en cualquiera de nuestras dos sucursales.
-                    Consultá por WhatsApp o teléfono ante cualquier duda
-                    sobre feriados y farmacias de turno.
-                </p>
-            </div>
-
-            <div class="w-full md:w-auto bg-slate-50 p-6 rounded-2xl border border-slate-100 space-y-5 shrink-0">
-
-                <div class="space-y-2">
-                    <h4 class="text-sm font-extrabold text-azulClaro-900">
-                        Farmacia Jaquenod I
-                    </h4>
-                    <p class="text-sm font-semibold text-slate-700">
-                        Lunes a viernes
-                    </p>
-                    <p class="text-sm text-slate-600">
-                        08:00hs a 12:30hs & 16:00hs a 20:30hs
-                    </p>
-                    <p class="text-sm font-semibold text-slate-700">
-                        Sábados
-                    </p>
-                    <p class="text-sm text-slate-600">
-                        08:30hs a 12:30hs
-                    </p>
-                </div>
-
-                <div class="h-px bg-slate-200"></div>
-
-                <div class="space-y-2">
-                    <h4 class="text-sm font-extrabold text-azulClaro-900">
-                        Farmacia Jaquenod II
-                    </h4>
-                    <p class="text-sm font-semibold text-slate-700">
-                        Lunes a viernes
-                    </p>
-                    <p class="text-sm text-slate-600">
-                        08:00hs a 12:30hs & 16:00hs a 20:30hs
-                    </p>
-                    <p class="text-sm font-semibold text-slate-700">
-                        Sábados
-                    </p>
-                    <p class="text-sm text-slate-600">
-                        08:30hs a 12:30hs
-                    </p>
-                </div>
-
-                <p class="text-[10px] text-slate-400 italic text-center pt-2">
-                    * Los horarios pueden variar por turnos obligatorios y feriados.
-                </p>
             </div>
         </div>
-    </div>
-</div>
 
-</section>
+    </section>
     <!-- SECCIÓN POR QUÉ ELEGIRNOS -->
     <section id="nosotros" class="py-24 bg-white">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center max-w-3xl mx-auto mb-16 space-y-4">
                 <h2 class="font-heading text-3xl sm:text-4xl font-extrabold text-azulClaro-900">
-                                    ¿Por qué elegir Farmacia Jaquenod?
-                                </h2>
+                    ¿Por qué elegir Farmacia Jaquenod?
+                </h2>
                 <div class="w-16 h-1.5 bg-gradient-to-r from-mint-500 to-celeste-500 mx-auto rounded-full"></div>
                 <p class="text-slate-600 text-lg">
-                                    Nuestra reputación se construye día a día con honestidad, calidez y el compromiso absoluto con tu bienestar y el de tu familia.
-                                </p>
+                    Nuestra reputación se construye día a día con honestidad, calidez y el compromiso absoluto con tu
+                    bienestar y el de tu familia.
+                </p>
             </div>
 
             <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
 
                 <!-- Tarjeta 1 -->
-                <div class="bg-gradient-to-b from-slate-50 to-white rounded-3xl p-8 border border-slate-100/80 hover:shadow-lg transition-all duration-300">
+                <div
+                    class="bg-gradient-to-b from-slate-50 to-white rounded-3xl p-8 border border-slate-100/80 hover:shadow-lg transition-all duration-300">
                     <div class="w-12 h-12 rounded-2xl bg-mint-50 flex items-center justify-center text-mint-500 mb-6">
                         <i data-lucide="heart-handshake" class="w-6 h-6"></i>
                     </div>
                     <h3 class="font-heading text-xl font-bold text-azulClaro-900 mb-3">Excelente atención y calidez</h3>
                     <p class="text-slate-600 leading-relaxed text-sm">
-                                            Brindamos un trato familiar y cercano. Nos tomamos el tiempo para escucharte y atender tus necesidades de salud con el respeto que merecés.
-                                        </p>
+                        Brindamos un trato familiar y cercano. Nos tomamos el tiempo para escucharte y atender tus
+                        necesidades de salud con el respeto que merecés.
+                    </p>
                 </div>
 
                 <!-- Tarjeta 2 -->
-                <div class="bg-gradient-to-b from-slate-50 to-white rounded-3xl p-8 border border-slate-100/80 hover:shadow-lg transition-all duration-300">
-                    <div class="w-12 h-12 rounded-2xl bg-celeste-50 flex items-center justify-center text-celeste-500 mb-6">
+                <div
+                    class="bg-gradient-to-b from-slate-50 to-white rounded-3xl p-8 border border-slate-100/80 hover:shadow-lg transition-all duration-300">
+                    <div
+                        class="w-12 h-12 rounded-2xl bg-celeste-50 flex items-center justify-center text-celeste-500 mb-6">
                         <i data-lucide="user-check" class="w-6 h-6"></i>
                     </div>
-                    <h3 class="font-heading text-xl font-bold text-azulClaro-900 mb-3">Personal altamente capacitado</h3>
+                    <h3 class="font-heading text-xl font-bold text-azulClaro-900 mb-3">Personal altamente capacitado
+                    </h3>
                     <p class="text-slate-600 leading-relaxed text-sm">
-                                            Nuestros profesionales están listos para orientarte sobre posología, interacciones, almacenamiento de medicamentos y opciones de venta libre.
-                                        </p>
+                        Nuestros profesionales están listos para orientarte sobre posología, interacciones,
+                        almacenamiento de medicamentos y opciones de venta libre.
+                    </p>
                 </div>
 
                 <!-- Tarjeta 3 -->
-                <div class="bg-gradient-to-b from-slate-50 to-white rounded-3xl p-8 border border-slate-100/80 hover:shadow-lg transition-all duration-300">
+                <div
+                    class="bg-gradient-to-b from-slate-50 to-white rounded-3xl p-8 border border-slate-100/80 hover:shadow-lg transition-all duration-300">
                     <div class="w-12 h-12 rounded-2xl bg-mint-50 flex items-center justify-center text-mint-500 mb-6">
                         <i data-lucide="award" class="w-6 h-6"></i>
                     </div>
                     <h3 class="font-heading text-xl font-bold text-azulClaro-900 mb-3">Cercanía y confianza</h3>
                     <p class="text-slate-600 leading-relaxed text-sm">
-                                            Somos la farmacia de barrio tradicional en la que podés confiar. Dos puntos de atención convenientes para que nunca tengas que alejarte de tu zona de confort.
-                                        </p>
+                        Somos la farmacia de barrio tradicional en la que podés confiar. Dos puntos de atención
+                        convenientes para que nunca tengas que alejarte de tu zona de confort.
+                    </p>
                 </div>
 
             </div>
@@ -565,114 +703,124 @@
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center max-w-3xl mx-auto mb-16 space-y-4">
                 <h2 class="font-heading text-3xl sm:text-4xl font-extrabold text-azulClaro-900">
-                                    Variedad de productos y asesoramiento profesional
-                                </h2>
+                    Variedad de productos y asesoramiento profesional
+                </h2>
                 <div class="w-16 h-1.5 bg-gradient-to-r from-mint-500 to-celeste-500 mx-auto rounded-full"></div>
                 <p class="text-slate-600 text-lg">
-                                    Todo lo que necesitás para tu cuidado personal, salud y bienestar general, respaldado por la validación de obras sociales.
-                                </p>
+                    Todo lo que necesitás para tu cuidado personal, salud y bienestar general, respaldado por la
+                    validación de obras sociales.
+                </p>
             </div>
 
             <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
 
                 <!-- Item 1 — Medicamentos -->
-<div class="bg-white rounded-2xl border border-slate-100 overflow-hidden hover:border-mint-200 hover:shadow-xl hover:-translate-y-1 transition-all duration-300">
-    <div class="h-48 overflow-hidden">
-        <img src="assets/img/fotosrubro/fotomedicamento.jpg"
-             alt="Medicamentos en Farmacia Jaquenod"
-             class="w-full h-full object-cover transition-transform duration-500 hover:scale-105"
-             loading="lazy">
-    </div>
+                <div
+                    class="bg-white rounded-2xl border border-slate-100 overflow-hidden hover:border-mint-200 hover:shadow-xl hover:-translate-y-1 transition-all duration-300">
+                    <div class="h-48 overflow-hidden">
+                        <img src="assets/img/fotosrubro/fotomedicamento.jpg" alt="Medicamentos en Farmacia Jaquenod"
+                            class="w-full h-full object-cover transition-transform duration-500 hover:scale-105"
+                            loading="lazy">
+                    </div>
 
-    <div class="p-6">
-        <div class="w-10 h-10 rounded-xl bg-mint-500 text-white flex items-center justify-center mb-5 shadow-sm">
-            <i data-lucide="pill" class="w-5 h-5"></i>
-        </div>
+                    <div class="p-6">
+                        <div
+                            class="w-10 h-10 rounded-xl bg-mint-500 text-white flex items-center justify-center mb-5 shadow-sm">
+                            <i data-lucide="pill" class="w-5 h-5"></i>
+                        </div>
 
-        <h3 class="font-heading font-bold text-lg text-azulClaro-900 mb-2">
-            Medicamentos
-        </h3>
+                        <h3 class="font-heading font-bold text-lg text-azulClaro-900 mb-2">
+                            Medicamentos
+                        </h3>
 
-        <p class="text-slate-500 text-sm leading-relaxed">
-            Medicamentos bajo receta y de venta libre. Amplia cobertura y trabajo directo con obras sociales nacionales y provinciales.
-        </p>
-    </div>
-</div>
-
-
-<!-- Item 2 — Dermocosmética -->
-<div class="bg-white rounded-2xl border border-slate-100 overflow-hidden hover:border-mint-200 hover:shadow-xl hover:-translate-y-1 transition-all duration-300">
-    <div class="h-48 overflow-hidden">
-        <img src="assets/img/fotosrubro/fotodermo.jpg"
-             alt="Dermocosmética en Farmacia Jaquenod"
-             class="w-full h-full object-cover transition-transform duration-500 hover:scale-105"
-             loading="lazy">
-    </div>
-
-    <div class="p-6">
-        <div class="w-10 h-10 rounded-xl bg-mint-500 text-white flex items-center justify-center mb-5 shadow-sm">
-            <i data-lucide="sparkles" class="w-5 h-5"></i>
-        </div>
-
-        <h3 class="font-heading font-bold text-lg text-azulClaro-900 mb-2">
-            Dermocosmética
-        </h3>
-
-        <p class="text-slate-500 text-sm leading-relaxed">
-            Tratamientos y cremas específicas para el cuidado de tu piel. Las marcas líderes del mercado con el mejor asesoramiento.
-        </p>
-    </div>
-</div>
+                        <p class="text-slate-500 text-sm leading-relaxed">
+                            Medicamentos bajo receta y de venta libre. Amplia cobertura y trabajo directo con obras
+                            sociales nacionales y provinciales.
+                        </p>
+                    </div>
+                </div>
 
 
-<!-- Item 3 — Cuidado del Bebé -->
-<div class="bg-white rounded-2xl border border-slate-100 overflow-hidden hover:border-mint-200 hover:shadow-xl hover:-translate-y-1 transition-all duration-300">
-    <div class="h-48 overflow-hidden">
-        <img src="assets/img/fotosrubro/fotobebe.jpg"
-             alt="Productos para el cuidado del bebé en Farmacia Jaquenod"
-             class="w-full h-full object-cover transition-transform duration-500 hover:scale-105"
-             loading="lazy">
-    </div>
+                <!-- Item 2 — Dermocosmética -->
+                <div
+                    class="bg-white rounded-2xl border border-slate-100 overflow-hidden hover:border-mint-200 hover:shadow-xl hover:-translate-y-1 transition-all duration-300">
+                    <div class="h-48 overflow-hidden">
+                        <img src="assets/img/fotosrubro/fotodermo.jpg" alt="Dermocosmética en Farmacia Jaquenod"
+                            class="w-full h-full object-cover transition-transform duration-500 hover:scale-105"
+                            loading="lazy">
+                    </div>
 
-    <div class="p-6">
-        <div class="w-10 h-10 rounded-xl bg-mint-500 text-white flex items-center justify-center mb-5 shadow-sm">
-            <i data-lucide="baby" class="w-5 h-5"></i>
-        </div>
+                    <div class="p-6">
+                        <div
+                            class="w-10 h-10 rounded-xl bg-mint-500 text-white flex items-center justify-center mb-5 shadow-sm">
+                            <i data-lucide="sparkles" class="w-5 h-5"></i>
+                        </div>
 
-        <h3 class="font-heading font-bold text-lg text-azulClaro-900 mb-2">
-            Cuidado del Bebé
-        </h3>
+                        <h3 class="font-heading font-bold text-lg text-azulClaro-900 mb-2">
+                            Dermocosmética
+                        </h3>
 
-        <p class="text-slate-500 text-sm leading-relaxed">
-            Fórmulas, pañales, accesorios y perfumería infantil para acompañar a tu bebé con suavidad y seguridad.
-        </p>
-    </div>
-</div>
+                        <p class="text-slate-500 text-sm leading-relaxed">
+                            Tratamientos y cremas específicas para el cuidado de tu piel. Las marcas líderes del mercado
+                            con el mejor asesoramiento.
+                        </p>
+                    </div>
+                </div>
 
 
-<!-- Item 4 — Perfumería e Higiene -->
-<div class="bg-white rounded-2xl border border-slate-100 overflow-hidden hover:border-mint-200 hover:shadow-xl hover:-translate-y-1 transition-all duration-300">
-    <div class="h-48 overflow-hidden">
-        <img src="assets/img/fotosrubro/fotoperfu.jpg"
-             alt="Perfumería e higiene en Farmacia Jaquenod"
-             class="w-full h-full object-cover transition-transform duration-500 hover:scale-105"
-             loading="lazy">
-    </div>
+                <!-- Item 3 — Cuidado del Bebé -->
+                <div
+                    class="bg-white rounded-2xl border border-slate-100 overflow-hidden hover:border-mint-200 hover:shadow-xl hover:-translate-y-1 transition-all duration-300">
+                    <div class="h-48 overflow-hidden">
+                        <img src="assets/img/fotosrubro/fotobebe.jpg"
+                            alt="Productos para el cuidado del bebé en Farmacia Jaquenod"
+                            class="w-full h-full object-cover transition-transform duration-500 hover:scale-105"
+                            loading="lazy">
+                    </div>
 
-    <div class="p-6">
-        <div class="w-10 h-10 rounded-xl bg-mint-500 text-white flex items-center justify-center mb-5 shadow-sm">
-            <i data-lucide="heart" class="w-5 h-5"></i>
-        </div>
+                    <div class="p-6">
+                        <div
+                            class="w-10 h-10 rounded-xl bg-mint-500 text-white flex items-center justify-center mb-5 shadow-sm">
+                            <i data-lucide="baby" class="w-5 h-5"></i>
+                        </div>
 
-        <h3 class="font-heading font-bold text-lg text-azulClaro-900 mb-2">
-            Perfumería e Higiene
-        </h3>
+                        <h3 class="font-heading font-bold text-lg text-azulClaro-900 mb-2">
+                            Cuidado del Bebé
+                        </h3>
 
-        <p class="text-slate-500 text-sm leading-relaxed">
-            Todo lo que necesitás para tu higiene personal diaria y fragancias seleccionadas para vos y tu familia.
-        </p>
-    </div>
-</div>
+                        <p class="text-slate-500 text-sm leading-relaxed">
+                            Fórmulas, pañales, accesorios y perfumería infantil para acompañar a tu bebé con suavidad y
+                            seguridad.
+                        </p>
+                    </div>
+                </div>
+
+
+                <!-- Item 4 — Perfumería e Higiene -->
+                <div
+                    class="bg-white rounded-2xl border border-slate-100 overflow-hidden hover:border-mint-200 hover:shadow-xl hover:-translate-y-1 transition-all duration-300">
+                    <div class="h-48 overflow-hidden">
+                        <img src="assets/img/fotosrubro/fotoperfu.jpg" alt="Perfumería e higiene en Farmacia Jaquenod"
+                            class="w-full h-full object-cover transition-transform duration-500 hover:scale-105"
+                            loading="lazy">
+                    </div>
+
+                    <div class="p-6">
+                        <div
+                            class="w-10 h-10 rounded-xl bg-mint-500 text-white flex items-center justify-center mb-5 shadow-sm">
+                            <i data-lucide="heart" class="w-5 h-5"></i>
+                        </div>
+
+                        <h3 class="font-heading font-bold text-lg text-azulClaro-900 mb-2">
+                            Perfumería e Higiene
+                        </h3>
+
+                        <p class="text-slate-500 text-sm leading-relaxed">
+                            Todo lo que necesitás para tu higiene personal diaria y fragancias seleccionadas para vos y
+                            tu familia.
+                        </p>
+                    </div>
+                </div>
 
             </div>
         </div>
@@ -688,30 +836,36 @@
                     </div>
 
                     <h2 class="font-heading text-2xl sm:text-3xl font-extrabold text-azulClaro-900">
-                                            Atención y Confianza Familiar
-                                        </h2>
+                        Atención y Confianza Familiar
+                    </h2>
 
                     <blockquote class="text-lg sm:text-xl text-slate-600 font-medium leading-relaxed italic max-w-2xl">
-                                            "Nos esforzamos para que cada persona que entra a nuestras farmacias se vaya con la tranquilidad de haber sido escuchada, comprendida y correctamente asesorada. Creemos en una farmacia con rostro humano."
-                                        </blockquote>
+                        "Nos esforzamos para que cada persona que entra a nuestras farmacias se vaya con la tranquilidad
+                        de haber sido escuchada, comprendida y correctamente asesorada. Creemos en una farmacia con
+                        rostro humano."
+                    </blockquote>
 
                     <div class="pt-4">
                         <p class="font-extrabold text-azulClaro-900 text-base">Equipo Farmacia Jaquenod</p>
-                        <p class="text-xs text-mint-600 tracking-wider font-bold uppercase mt-1">San Francisco, Córdoba</p>
+                        <p class="text-xs text-mint-600 tracking-wider font-bold uppercase mt-1">San Francisco, Córdoba
+                        </p>
                     </div>
 
                     <div class="grid grid-cols-2 sm:grid-cols-3 gap-6 w-full max-w-xl pt-8 border-t border-slate-100">
                         <div class="text-center col-span-1">
                             <span class="block text-2xl font-extrabold text-mint-600">2</span>
-                            <span class="text-[10px] text-slate-400 font-bold uppercase tracking-widest">Sucursales</span>
+                            <span
+                                class="text-[10px] text-slate-400 font-bold uppercase tracking-widest">Sucursales</span>
                         </div>
                         <div class="text-center col-span-1 border-x border-slate-100">
                             <span class="block text-2xl font-extrabold text-mint-600">100%</span>
-                            <span class="text-[10px] text-slate-400 font-bold uppercase tracking-widest">Comprometidos</span>
+                            <span
+                                class="text-[10px] text-slate-400 font-bold uppercase tracking-widest">Comprometidos</span>
                         </div>
                         <div class="text-center col-span-2 sm:col-span-1">
                             <span class="block text-2xl font-extrabold text-mint-600">Profesional</span>
-                            <span class="text-[10px] text-slate-400 font-bold uppercase tracking-widest">Asesoramiento</span>
+                            <span
+                                class="text-[10px] text-slate-400 font-bold uppercase tracking-widest">Asesoramiento</span>
                         </div>
                     </div>
                 </div>
@@ -724,54 +878,75 @@
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center max-w-3xl mx-auto mb-16 space-y-4">
                 <h2 class="font-heading text-3xl sm:text-4xl font-extrabold text-azulClaro-900">
-                                    Comunicate con nosotros
-                                </h2>
+                    Comunicate con nosotros
+                </h2>
                 <div class="w-16 h-1.5 bg-gradient-to-r from-mint-500 to-celeste-500 mx-auto rounded-full"></div>
                 <p class="text-slate-600 text-lg">
-                                    Si necesitás asesoramiento o querés hacer una consulta, comunicate con la sucursal más cercana o completá el siguiente formulario.
-                                </p>
+                    Si necesitás asesoramiento o querés hacer una consulta, comunicate con la sucursal más cercana o
+                    completá el siguiente formulario.
+                </p>
             </div>
 
-            <div class="max-w-3xl mx-auto bg-white p-8 sm:p-12 rounded-3xl border border-slate-100 shadow-xl relative overflow-hidden">
+            <div
+                class="max-w-3xl mx-auto bg-white p-8 sm:p-12 rounded-3xl border border-slate-100 shadow-xl relative overflow-hidden">
 
                 <!-- Spinner/Carga Interactivo (Oculto inicialmente) -->
-                <div id="form-loader" class="absolute inset-0 bg-white/95 backdrop-blur-sm rounded-3xl flex flex-col items-center justify-center z-20 hidden">
+                <div id="form-loader"
+                    class="absolute inset-0 bg-white/95 backdrop-blur-sm rounded-3xl flex flex-col items-center justify-center z-20 hidden">
                     <div class="animate-spin rounded-full h-12 w-12 border-t-2 border-b-2 border-mint-500"></div>
                     <p class="mt-4 text-slate-600 font-bold">Enviando consulta...</p>
                 </div>
 
                 <!-- Modal de Éxito (Oculto inicialmente) -->
-                <div id="form-success" class="absolute inset-0 bg-white rounded-3xl flex flex-col items-center justify-center p-8 z-30 hidden text-center">
+                <div id="form-success"
+                    class="absolute inset-0 bg-white rounded-3xl flex flex-col items-center justify-center p-8 z-30 hidden text-center">
                     <div class="w-16 h-16 rounded-full bg-mint-50 text-mint-500 flex items-center justify-center mb-6">
                         <i data-lucide="check" class="w-8 h-8 stroke-[3]"></i>
                     </div>
                     <h3 class="font-heading text-2xl font-bold text-slate-900 mb-2">¡Consulta Enviada!</h3>
-                    <p class="text-slate-500 max-w-sm mb-6 text-sm">Recibimos tu mensaje correctamente. Un asesor de Farmacia Jaquenod se comunicará con vos a la brevedad.</p>
-                    <button id="success-close-btn" class="px-6 py-3 bg-acentoVibrante-500 hover:bg-acentoVibrante-600 text-white font-bold rounded-xl transition-colors">
-                                            Volver a consultar
-                                        </button>
+                    <p class="text-slate-500 max-w-sm mb-6 text-sm">Recibimos tu mensaje correctamente. Un asesor de
+                        Farmacia Jaquenod se comunicará con vos a la brevedad.</p>
+                    <button id="success-close-btn"
+                        class="px-6 py-3 bg-acentoVibrante-500 hover:bg-acentoVibrante-600 text-white font-bold rounded-xl transition-colors">
+                        Volver a consultar
+                    </button>
                 </div>
 
                 <form id="contact-form" class="space-y-6">
                     <div>
-                        <label for="name" class="block text-xs font-bold text-slate-500 uppercase tracking-wider mb-2">Nombre Completo *</label>
-                        <input type="text" id="name" required class="w-full px-4 py-3 rounded-xl border border-slate-200 focus:outline-none focus:ring-2 focus:ring-mint-500/20 focus:border-mint-500 bg-slate-50/50 text-slate-800 font-medium transition-all placeholder:text-slate-400 text-sm" placeholder="Ej. María González">
+                        <label for="name"
+                            class="block text-xs font-bold text-slate-500 uppercase tracking-wider mb-2">Nombre Completo
+                            *</label>
+                        <input type="text" id="name" required
+                            class="w-full px-4 py-3 rounded-xl border border-slate-200 focus:outline-none focus:ring-2 focus:ring-mint-500/20 focus:border-mint-500 bg-slate-50/50 text-slate-800 font-medium transition-all placeholder:text-slate-400 text-sm"
+                            placeholder="Ej. María González">
                     </div>
 
                     <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
                         <div>
-                            <label for="phone" class="block text-xs font-bold text-slate-500 uppercase tracking-wider mb-2">Teléfono de Contacto *</label>
-                            <input type="tel" id="phone" required class="w-full px-4 py-3 rounded-xl border border-slate-200 focus:outline-none focus:ring-2 focus:ring-mint-500/20 focus:border-mint-500 bg-slate-50/50 text-slate-800 font-medium transition-all placeholder:text-slate-400 text-sm" placeholder="Ej. 3564 123456">
+                            <label for="phone"
+                                class="block text-xs font-bold text-slate-500 uppercase tracking-wider mb-2">Teléfono de
+                                Contacto *</label>
+                            <input type="tel" id="phone" required
+                                class="w-full px-4 py-3 rounded-xl border border-slate-200 focus:outline-none focus:ring-2 focus:ring-mint-500/20 focus:border-mint-500 bg-slate-50/50 text-slate-800 font-medium transition-all placeholder:text-slate-400 text-sm"
+                                placeholder="Ej. 3564 123456">
                         </div>
                         <div>
-                            <label for="email" class="block text-xs font-bold text-slate-500 uppercase tracking-wider mb-2">Correo Electrónico (Opcional)</label>
-                            <input type="email" id="email" class="w-full px-4 py-3 rounded-xl border border-slate-200 focus:outline-none focus:ring-2 focus:ring-mint-500/20 focus:border-mint-500 bg-slate-50/50 text-slate-800 font-medium transition-all placeholder:text-slate-400 text-sm" placeholder="maria@ejemplo.com">
+                            <label for="email"
+                                class="block text-xs font-bold text-slate-500 uppercase tracking-wider mb-2">Correo
+                                Electrónico (Opcional)</label>
+                            <input type="email" id="email"
+                                class="w-full px-4 py-3 rounded-xl border border-slate-200 focus:outline-none focus:ring-2 focus:ring-mint-500/20 focus:border-mint-500 bg-slate-50/50 text-slate-800 font-medium transition-all placeholder:text-slate-400 text-sm"
+                                placeholder="maria@ejemplo.com">
                         </div>
                     </div>
 
                     <div>
-                        <label for="reason" class="block text-xs font-bold text-slate-500 uppercase tracking-wider mb-2">Motivo de consulta</label>
-                        <select id="reason" class="w-full px-4 py-3 rounded-xl border border-slate-200 focus:outline-none focus:ring-2 focus:ring-mint-500/20 focus:border-mint-500 bg-slate-50/50 text-slate-800 font-medium transition-all text-sm">
+                        <label for="reason"
+                            class="block text-xs font-bold text-slate-500 uppercase tracking-wider mb-2">Motivo de
+                            consulta</label>
+                        <select id="reason"
+                            class="w-full px-4 py-3 rounded-xl border border-slate-200 focus:outline-none focus:ring-2 focus:ring-mint-500/20 focus:border-mint-500 bg-slate-50/50 text-slate-800 font-medium transition-all text-sm">
                             <option value="Medicamentos">Consulta sobre Medicamentos</option>
                             <option value="Obras Sociales">Obras Sociales y Coberturas</option>
                             <option value="Perfumería">Perfumería y Dermocosmética</option>
@@ -780,14 +955,19 @@
                     </div>
 
                     <div>
-                        <label for="message" class="block text-xs font-bold text-slate-500 uppercase tracking-wider mb-2">Tu Mensaje / Consulta *</label>
-                        <textarea id="message" rows="4" required class="w-full px-4 py-3 rounded-xl border border-slate-200 focus:outline-none focus:ring-2 focus:ring-mint-500/20 focus:border-mint-500 bg-slate-50/50 text-slate-800 font-medium transition-all placeholder:text-slate-400 text-sm" placeholder="Escribí aquí tu consulta detallada..."></textarea>
+                        <label for="message"
+                            class="block text-xs font-bold text-slate-500 uppercase tracking-wider mb-2">Tu Mensaje /
+                            Consulta *</label>
+                        <textarea id="message" rows="4" required
+                            class="w-full px-4 py-3 rounded-xl border border-slate-200 focus:outline-none focus:ring-2 focus:ring-mint-500/20 focus:border-mint-500 bg-slate-50/50 text-slate-800 font-medium transition-all placeholder:text-slate-400 text-sm"
+                            placeholder="Escribí aquí tu consulta detallada..."></textarea>
                     </div>
 
-                    <button type="submit" class="w-full flex items-center justify-center py-4 rounded-xl bg-acentoVibrante-500 hover:bg-acentoVibrante-600 text-white font-extrabold text-base transition-colors shadow-lg shadow-acentoVibrante-500/10 active:scale-[0.99]">
+                    <button type="submit"
+                        class="w-full flex items-center justify-center py-4 rounded-xl bg-acentoVibrante-500 hover:bg-acentoVibrante-600 text-white font-extrabold text-base transition-colors shadow-lg shadow-acentoVibrante-500/10 active:scale-[0.99]">
                         <i data-lucide="send" class="w-5 h-5 mr-2"></i>
-                         Enviar Consulta
-                                            
+                        Enviar Consulta
+
                     </button>
                 </form>
             </div>
@@ -805,14 +985,17 @@
                         <div class="w-10 h-10 rounded-xl bg-mint-500 flex items-center justify-center text-white">
                             <i data-lucide="plus" class="w-5 h-5 stroke-[3]"></i>
                         </div>
-                        <span class="font-heading font-extrabold text-lg tracking-tight text-white">Farmacia Jaquenod</span>
+                        <span class="font-heading font-extrabold text-lg tracking-tight text-white">Farmacia
+                            Jaquenod</span>
                     </div>
                     <p class="text-slate-400 text-sm leading-relaxed">
-                                            Salud, bienestar y calidez profesional en la ciudad de San Francisco, Córdoba. Cuidamos de vos y de los tuyos todos los días.
-                                        </p>
-                    <p class="font-heading font-semibold text-white tracking-wider text-xs uppercase border-l-2 border-mint-500 pl-3">
-                                            "Tu salud, nuestra prioridad."
-                                        </p>
+                        Salud, bienestar y calidez profesional en la ciudad de San Francisco, Córdoba. Cuidamos de vos y
+                        de los tuyos todos los días.
+                    </p>
+                    <p
+                        class="font-heading font-semibold text-white tracking-wider text-xs uppercase border-l-2 border-mint-500 pl-3">
+                        "Tu salud, nuestra prioridad."
+                    </p>
                 </div>
 
                 <!-- Bloque Central -->
@@ -848,8 +1031,9 @@
                             <i data-lucide="phone" class="w-5 h-5 text-mint-500 shrink-0 mr-3"></i>
                             <div>
                                 <p class="text-white font-medium">
-                                    Sucursal I: 
-                                    <a href="tel:03564362170" class="hover:underline hover:text-mint-500 transition-colors">(03564) 362170</a>
+                                    Sucursal I:
+                                    <a href="tel:03564362170"
+                                        class="hover:underline hover:text-mint-500 transition-colors">(03564) 362170</a>
                                 </p>
                                 <p class="text-xs text-slate-500">Blvd. Roque Sáenz Peña 328</p>
                             </div>
@@ -858,8 +1042,9 @@
                             <i data-lucide="phone" class="w-5 h-5 text-mint-500 shrink-0 mr-3"></i>
                             <div>
                                 <p class="text-white font-medium">
-                                    Sucursal II: 
-                                    <a href="tel:03564242243" class="hover:underline hover:text-mint-500 transition-colors">(03564) 242243</a>
+                                    Sucursal II:
+                                    <a href="tel:03564242243"
+                                        class="hover:underline hover:text-mint-500 transition-colors">(03564) 242243</a>
                                 </p>
                                 <p class="text-xs text-slate-500">Hipólito Yrigoyen 399</p>
                             </div>
@@ -870,66 +1055,82 @@
             </div>
 
             <!-- Subfooter Legal -->
-            <div class="border-t border-slate-800 mt-12 pt-8 flex flex-col sm:flex-row items-center justify-between text-xs text-slate-500 space-y-4 sm:space-y-0">
+            <div
+                class="border-t border-slate-800 mt-12 pt-8 flex flex-col sm:flex-row items-center justify-between text-xs text-slate-500 space-y-4 sm:space-y-0">
                 <p>
                     Desarrollado por Compucor Tecnología.
-                    <a href="https://www.compucor.com.ar"
-                       target="_blank"
-                       rel="noopener noreferrer">
+                    <a href="https://www.compucor.com.ar" target="_blank" rel="noopener noreferrer">
                         <strong>www.compucor.com.ar</strong>
-                    </a>  
+                    </a>
                 </p>
                 <p>&copy; 2026 Farmacia Jaquenod. Todos los derechos reservados.</p>
                 <p>San Francisco, Córdoba, Argentina.</p>
             </div>
         </div>
     </footer>
-<!-- BOTÓN FLOTANTE BACK TO TOP -->
-<button id="back-to-top-btn" 
-        class="fixed bottom-24 right-6 z-40 bg-azulClaro-900 hover:bg-azulClaro-800 text-white p-3.5 rounded-full shadow-lg hover:shadow-xl hover:scale-110 active:scale-95 transition-all duration-300 flex items-center justify-center opacity-0 pointer-events-none translate-y-4" 
+    <!-- BOTÓN FLOTANTE BACK TO TOP -->
+    <button id="back-to-top-btn"
+        class="fixed bottom-24 right-6 z-40 bg-azulClaro-900 hover:bg-azulClaro-800 text-white p-3.5 rounded-full shadow-lg hover:shadow-xl hover:scale-110 active:scale-95 transition-all duration-300 flex items-center justify-center opacity-0 pointer-events-none translate-y-4"
         aria-label="Volver arriba">
-    <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2.5">
-        <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 15.75l7.5-7.5 7.5 7.5" />
-    </svg>
-</button>
+        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2.5">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 15.75l7.5-7.5 7.5 7.5" />
+        </svg>
+    </button>
     <!-- BOTÓN FLOTANTE WHATSAPP -->
     <!-- Preparado para fácil configuración individual. Al hacer clic abre una ventana/menú para elegir a qué sucursal contactar. -->
-<button id="whatsapp-floating-btn" class="fixed bottom-6 right-6 z-40 bg-[#25D366] hover:bg-[#20ba5a] text-white p-4 rounded-full shadow-lg hover:shadow-xl hover:scale-110 active:scale-95 transition-all duration-300 flex items-center justify-center group" aria-label="Escribinos por WhatsApp">
-    <svg class="w-6 h-6" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
-        <path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99 0-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.198.198-.371.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.611-.916-2.206-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"></path>
-    </svg>
-    <span class="max-w-0 overflow-hidden group-hover:max-w-xs group-hover:ml-2 text-sm font-bold transition-all duration-300 ease-out whitespace-nowrap">Consultar por WhatsApp</span>
-</button>
+    <button id="whatsapp-floating-btn"
+        class="fixed bottom-6 right-6 z-40 bg-[#25D366] hover:bg-[#20ba5a] text-white p-4 rounded-full shadow-lg hover:shadow-xl hover:scale-110 active:scale-95 transition-all duration-300 flex items-center justify-center group"
+        aria-label="Escribinos por WhatsApp">
+        <svg class="w-6 h-6" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+            <path
+                d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99 0-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.198.198-.371.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.611-.916-2.206-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z">
+            </path>
+        </svg>
+        <span
+            class="max-w-0 overflow-hidden group-hover:max-w-xs group-hover:ml-2 text-sm font-bold transition-all duration-300 ease-out whitespace-nowrap">Consultar
+            por WhatsApp</span>
+    </button>
 
     <!-- Modal Selector de WhatsApp para Sucursales -->
-    <div id="whatsapp-modal" class="fixed inset-0 z-50 bg-slate-900/40 backdrop-blur-sm flex items-center justify-center p-4 hidden">
+    <div id="whatsapp-modal"
+        class="fixed inset-0 z-50 bg-slate-900/40 backdrop-blur-sm flex items-center justify-center p-4 hidden">
         <div class="bg-white rounded-3xl p-6 sm:p-8 max-w-sm w-full shadow-2xl relative">
-            <button id="close-whatsapp-modal" class="absolute top-4 right-4 p-1.5 text-slate-400 hover:text-slate-600 rounded-lg hover:bg-slate-50">
+            <button id="close-whatsapp-modal"
+                class="absolute top-4 right-4 p-1.5 text-slate-400 hover:text-slate-600 rounded-lg hover:bg-slate-50">
                 <i data-lucide="x" class="w-5 h-5"></i>
             </button>
 
             <div class="text-center space-y-4 mb-6">
-                <div class="w-12 h-12 bg-emerald-50 rounded-full flex items-center justify-center text-emerald-500 mx-auto">
+                <div
+                    class="w-12 h-12 bg-emerald-50 rounded-full flex items-center justify-center text-emerald-500 mx-auto">
                     <i data-lucide="message-square" class="w-6 h-6"></i>
                 </div>
-                <h3 class="font-heading font-extrabold text-xl text-azulClaro-900">¿A qué sucursal querés escribirle?</h3>
-                <p class="text-slate-500 text-sm">Seleccioná la sucursal más conveniente para tu consulta de WhatsApp.</p>
+                <h3 class="font-heading font-extrabold text-xl text-azulClaro-900">¿A qué sucursal querés escribirle?
+                </h3>
+                <p class="text-slate-500 text-sm">Seleccioná la sucursal más conveniente para tu consulta de WhatsApp.
+                </p>
             </div>
 
             <div class="space-y-3">
                 <!-- Enlace Sucursal I: Modificar número después del '5493564' según sea necesario -->
-                <a href="https://wa.me/5493564362170?text=Hola%20Farmacia%20Jaquenod%2C%20los%20contacto%20desde%20la%20pagina%20web%21%20quiero%20hacer%20una%20consulta" target="_blank" rel="noopener noreferrer" class="flex items-center justify-between p-4 rounded-2xl bg-slate-50 border border-slate-100 hover:border-emerald-500 hover:bg-emerald-50/10 transition-all group">
+                <a href="https://wa.me/5493564362170?text=Hola%20Farmacia%20Jaquenod%2C%20los%20contacto%20desde%20la%20pagina%20web%21%20quiero%20hacer%20una%20consulta"
+                    target="_blank" rel="noopener noreferrer"
+                    class="flex items-center justify-between p-4 rounded-2xl bg-slate-50 border border-slate-100 hover:border-emerald-500 hover:bg-emerald-50/10 transition-all group">
                     <div class="text-left">
-                        <span class="block font-bold text-slate-800 text-sm group-hover:text-emerald-600">Farmacia Jaquenod I</span>
+                        <span class="block font-bold text-slate-800 text-sm group-hover:text-emerald-600">Farmacia
+                            Jaquenod I</span>
                         <span class="block text-[11px] text-slate-400 mt-0.5">Blvd. Roque Sáenz Peña 328</span>
                     </div>
                     <i data-lucide="chevron-right" class="w-5 h-5 text-slate-400 group-hover:text-emerald-500"></i>
                 </a>
 
                 <!-- Enlace Sucursal II: Modificar número después del '5493564' según sea necesario -->
-                <a href="https://wa.me/5493564242243?text=Hola%20Farmacia%20Jaquenod%2C%20los%20contacto%20desde%20la%20pagina%20web%21%20quiero%20hacer%20una%20consulta" target="_blank" rel="noopener noreferrer" class="flex items-center justify-between p-4 rounded-2xl bg-slate-50 border border-slate-100 hover:border-emerald-500 hover:bg-emerald-50/10 transition-all group">
+                <a href="https://wa.me/5493564242243?text=Hola%20Farmacia%20Jaquenod%2C%20los%20contacto%20desde%20la%20pagina%20web%21%20quiero%20hacer%20una%20consulta"
+                    target="_blank" rel="noopener noreferrer"
+                    class="flex items-center justify-between p-4 rounded-2xl bg-slate-50 border border-slate-100 hover:border-emerald-500 hover:bg-emerald-50/10 transition-all group">
                     <div class="text-left">
-                        <span class="block font-bold text-slate-800 text-sm group-hover:text-emerald-600">Farmacia Jaquenod II</span>
+                        <span class="block font-bold text-slate-800 text-sm group-hover:text-emerald-600">Farmacia
+                            Jaquenod II</span>
                         <span class="block text-[11px] text-slate-400 mt-0.5">Hipólito Yrigoyen 399</span>
                     </div>
                     <i data-lucide="chevron-right" class="w-5 h-5 text-slate-400 group-hover:text-emerald-500"></i>
@@ -945,11 +1146,11 @@
             if (window.lucide) {
                 lucide.createIcons();
             }
-    
+
             const btn = document.getElementById('whatsapp-floating-btn');
             const modal = document.getElementById('whatsapp-modal');
             const closeBtn = document.getElementById('close-whatsapp-modal');
-    
+
             // Abrir ventana de opciones de sucursal
             if (btn && modal) {
                 btn.addEventListener('click', (e) => {
@@ -958,14 +1159,14 @@
                     modal.classList.remove('hidden');
                 });
             }
-    
+
             // Cerrar con el botón X
             if (closeBtn && modal) {
                 closeBtn.addEventListener('click', () => {
                     modal.classList.add('hidden');
                 });
             }
-    
+
             // Cerrar haciendo clic afuera del recuadro
             if (modal) {
                 modal.addEventListener('click', (e) => {
@@ -977,6 +1178,11 @@
         });
     </script>
     <script src="assets/js/main.js" type="module"></script>
-    <script type="module" src="https://static.cloudflareinsights.com/beacon.min.js/v4513226cdae34746b4dedf0b4dfa099e1781791509496" integrity="sha512-ZE9pZaUXND66v380QUtch/5sE9tPFh2zg45pR2PB0CVkCtOREv2AJKkSidISWkysEuQ0EH8faUU5du78bx87UQ==" data-cf-beacon='{"version":"2024.11.0","token":"1fc2606a19724fc9b301fa667542318a","r":1}' crossorigin="anonymous"></script>
+    <script type="module"
+        src="https://static.cloudflareinsights.com/beacon.min.js/v4513226cdae34746b4dedf0b4dfa099e1781791509496"
+        integrity="sha512-ZE9pZaUXND66v380QUtch/5sE9tPFh2zg45pR2PB0CVkCtOREv2AJKkSidISWkysEuQ0EH8faUU5du78bx87UQ=="
+        data-cf-beacon='{"version":"2024.11.0","token":"1fc2606a19724fc9b301fa667542318a","r":1}'
+        crossorigin="anonymous"></script>
 </body>
+
 </html>
